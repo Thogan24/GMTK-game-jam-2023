@@ -61,15 +61,5 @@ public class Enemy : MonoBehaviour
     }
 
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag.Equals("Target"))
-        {
-            Destroy(this.gameObject);
-        }
-
-        
-
-
-    }
+    
 }
